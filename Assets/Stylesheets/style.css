@@ -22,10 +22,17 @@
     min-height: 100vh;
     background-color: #F2F4F7;
     color: #111F4D;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 .portfolio-page {
     min-height: 100vh;
     background-color: #E43A19;
+    color: #111F4D;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 .main-foot{
     display: flex;
@@ -50,4 +57,10 @@ a {
 }
 .navbg {
     background-color: #020205;
+}
+.about-text {
+    color: #111F4D;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    shadow
 }

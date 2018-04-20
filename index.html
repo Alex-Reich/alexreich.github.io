@@ -15,13 +15,13 @@
 
 <body>
     <!-- Color pallete: http://colorhunt.co/c/106735 -->
-    <div class="container-fluid">
+    <section class="container-fluid">
         <div class="row landing-page txt-center align-items-center stack">
             <div class="col">
                 <nav class="nav navbar-dark navbar-expand-lg navbg">
                     <div class="nav">
-                        <a class="nav-item nav-link" href="#">About</a>
-                        <a class="nav-item nav-link" href="#">Portfolio</a>
+                        <a class="nav-item nav-link" href="#about-page">About</a>
+                        <a class="nav-item nav-link" href="#portfolio-page">Portfolio</a>
                     </div>
                 </nav>
                 <h2 class="top-margin">You've reached the landing page of</h2>
@@ -35,20 +35,35 @@
             </div>
             <div class="col main-foot">
                 <div>
-                    <h2 class="">To leave a message, continue scrolling down.</h2>
+                    <h2>To leave a message, continue scrolling down.</h2>
                     <i class="fas fa-angle-down scroll-arrow"></i>
                 </div>
 
             </div>
         </div>
-        <div class="row about-page">
-            <h1 class="txt-center">Kick back, make yourself comfortable, and check out these projects.</h1>
+        <div class="row about-page txt-center" id="about-page">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="top-margin">About Me</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nihil ratione molestias id provident eos temporibus
+                    amet repellat numquam in rem alias nemo itaque saepe quisquam modi voluptates, aspernatur ipsum. Corporis,
+                    iure soluta minus perferendis est accusamus maxime quo harum reiciendis obcaecati consequatur quaerat
+                    iste exercitationem aperiam id quia voluptates praesentium eligendi ex.</p>
+            </div>
+            <div class="col">
+                <img src="//placehold.it/500x500" alt="">
+            </div>
         </div>
-        <div class="row portfolio-page">
-
+        <div class="row portfolio-page" id="portfolio-page">
+            <h1 class="top-margin">Kick back, make yourself comfortable, and check out these projects.</h1>
         </div>
 
-    </div>
+    </section>
 
 </body>
 
