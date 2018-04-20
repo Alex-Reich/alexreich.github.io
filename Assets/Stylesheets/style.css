@@ -1,0 +1,32 @@
+.txt-center {
+    text-align: center;
+}
+.intro-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 7rem;
+}
+.intro-desc {
+    font-size: 2rem;
+}
+
+.stack {
+    flex-direction: column;
+}
+.landing-page {
+    background-color: lightblue;
+    min-height: 100vh;
+}
+.about-page {
+    min-height: 100vh;
+    background-color: lightgrey;
+}
+.portfolio-page {
+    min-height: 100vh;
+    background-color: darkcyan;
+}
+
+.main-foot{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
