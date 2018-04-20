@@ -4,29 +4,50 @@
 .intro-name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 7rem;
+    color: white;
 }
 .intro-desc {
     font-size: 2rem;
+    color: white;
 }
-
 .stack {
     flex-direction: column;
 }
 .landing-page {
-    background-color: lightblue;
+    background-color: #111F4D;
     min-height: 100vh;
+    color: white;
 }
 .about-page {
     min-height: 100vh;
-    background-color: lightgrey;
+    background-color: #F2F4F7;
+    color: #111F4D;
 }
 .portfolio-page {
     min-height: 100vh;
-    background-color: darkcyan;
+    background-color: #E43A19;
 }
-
 .main-foot{
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    color: white;
+}
+.top-margin {
+margin-top: 1vh;
+}
+.scroll-arrow {
+    font-size: 3rem;
+    color: white;
+}
+.col {
+    flex-basis: unset;
+    padding-left: 0;
+    padding-right: 0;
+}
+a {
+    color: white;
+}
+.navbg {
+    background-color: #020205;
 }
