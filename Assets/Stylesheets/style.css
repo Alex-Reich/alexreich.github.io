@@ -31,7 +31,6 @@
     background-color: #E43A19;
     color: #111F4D;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
 }
 .main-foot{
@@ -40,12 +39,21 @@
     justify-content: center;
     color: white;
 }
+.other-footer{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
 .top-margin {
 margin-top: 1vh;
 }
 .scroll-arrow {
     font-size: 3rem;
     color: white;
+}
+.bluescroll-arrow {
+    font-size: 3rem;
+    color: #111F4D;
 }
 .col {
     flex-basis: unset;
@@ -62,5 +70,4 @@ a {
     color: #111F4D;
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    shadow
 }
