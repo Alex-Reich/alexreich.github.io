@@ -70,4 +70,9 @@ a {
     color: #111F4D;
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20pt 0pt 20pt 0pt;
+}
+.thumbnail {
+    height: 300px;
+    width: 300px;
 }
