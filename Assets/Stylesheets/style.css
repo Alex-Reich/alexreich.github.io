@@ -80,3 +80,7 @@ a {
     max-height: 500px;
     /* max-width: 300px; */
 }
+.icon {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
