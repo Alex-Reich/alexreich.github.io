@@ -76,3 +76,7 @@ a {
     height: 300px;
     width: 300px;
 }
+.headshot {
+    max-height: 500px;
+    /* max-width: 300px; */
+}
